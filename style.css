@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /* ESTILO GERAL */
+=======
+
+>>>>>>> 0b1a5a6 (Responsividade Mobile)
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +24,11 @@ html {
     margin: 0 auto;
 }
 
+<<<<<<< HEAD
 /* ESTILO CABEÇALHO */
+=======
+
+>>>>>>> 0b1a5a6 (Responsividade Mobile)
 header {
     position: fixed;
     top: 0;
@@ -80,7 +88,11 @@ header .btn-contato button:hover{
 }
 
 
+<<<<<<< HEAD
 /* ESTILO HOME PAGE */
+=======
+
+>>>>>>> 0b1a5a6 (Responsividade Mobile)
 .container {
     display: flex;
     align-items: center;
@@ -146,7 +158,11 @@ header .btn-contato button:hover{
 }
 
 #hire-me-btn:hover{
+<<<<<<< HEAD
     /* box-shadow: 0px 0px 5px #f84e00; */
+=======
+    
+>>>>>>> 0b1a5a6 (Responsividade Mobile)
     transform: scale(1.10);
     transition: .5s;
 }
@@ -166,7 +182,11 @@ header .btn-contato button:hover{
 }
 
 #my-works-btn:hover{
+<<<<<<< HEAD
     /* box-shadow: 0px 0px 5px #151515; */
+=======
+    
+>>>>>>> 0b1a5a6 (Responsividade Mobile)
     transform: scale(1.10);
     transition: .5s;
 }
@@ -209,7 +229,11 @@ header .btn-contato button:hover{
 }
 
 
+<<<<<<< HEAD
 /* ESTILO DA SECTION DE ABOUT */
+=======
+
+>>>>>>> 0b1a5a6 (Responsividade Mobile)
 
 .about-container {
     padding: 50px 20px;
@@ -251,7 +275,11 @@ header .btn-contato button:hover{
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 /* ESTILO DA SECTION DE SKILLS */
+=======
+
+>>>>>>> 0b1a5a6 (Responsividade Mobile)
 
 .skills-container {
     padding: 50px 20px;
@@ -318,7 +346,11 @@ header .btn-contato button:hover{
     filter: grayscale(0%);
 }
 
+<<<<<<< HEAD
 /* ESTILO DA SECTION DE CONTACT */
+=======
+
+>>>>>>> 0b1a5a6 (Responsividade Mobile)
 
 .contact-container {
     padding: 50px 20px;
@@ -496,9 +528,15 @@ header .btn-contato button:hover{
     overflow-y: auto;
     box-sizing: border-box;
     border-radius: 5px;
+<<<<<<< HEAD
     /* border: 1px solid #ccc; */
     background-color: #969696;;
     /* color: #000000; */
+=======
+    
+    background-color: #969696;;
+    
+>>>>>>> 0b1a5a6 (Responsividade Mobile)
     line-height: 1.4;
     margin-bottom: 10px;
 }
@@ -550,6 +588,7 @@ header .btn-contato button:hover{
 }
 
 @media (max-width: 768px) {
+<<<<<<< HEAD
     .container {
         flex-direction: column;
         padding: 100px 5%;
@@ -609,3 +648,166 @@ header .btn-contato button:hover{
         max-width: 340px;
     }
 }
+=======
+    
+    header > .interface {
+      flex-direction: row;
+      justify-content: space-between;
+      position: relative;
+    }
+  
+    .menu-desktop {
+      display: none;
+    }
+  
+    .menu-mobile-btn {
+      display: block;
+      font-size: 30px;
+      color: #b84e4ed5;
+      cursor: pointer;
+      z-index: 20;
+    }
+  
+    .menu-mobile {
+      display: none;
+      flex-direction: column;
+      background-color: #030306;
+      position: absolute;
+      top: 100%;
+      right: 0;
+      width: 100%;
+      padding: 20px;
+      z-index: 15;
+    }
+  
+    .menu-mobile a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 0;
+      font-size: 18px;
+    }
+  
+    .menu-mobile.show {
+      display: flex;
+    }
+  
+    
+    .container {
+      flex-direction: column;
+      padding-top: 120px;
+      gap: 20px;
+      align-items: center;
+    }
+  
+    .description-container,
+    .photo-container,
+    .details-container {
+      width: 90%;
+      height: auto;
+      padding: 10px 0;
+      text-align: center;
+    }
+  
+    .home-photo img {
+      width: 80%;
+      height: auto;
+      padding: 0;
+    }
+  
+    .my-info {
+      width: 100%;
+      height: auto;
+      margin: 0;
+    }
+  
+    #hello {
+      font-size: 32px;
+    }
+  
+    #name {
+      font-size: 40px;
+    }
+  
+    #last-name {
+      font-size: 35px;
+    }
+  
+    #position {
+      font-size: 20px;
+    }
+  
+    #hire-me-btn, #my-works-btn {
+      width: 140px;
+      height: 40px;
+      font-size: 18px;
+    }
+  
+    
+    .text-about-me {
+      flex-direction: column;
+    }
+  
+    #about-title {
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    .about-text {
+      font-size: 16px;
+    }
+  
+    
+    #skills-title {
+      font-size: 40px;
+      padding-bottom: 50px;
+    }
+  
+    .skills-grid {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+    }
+  
+    .skill {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+      margin: 0 auto;
+    }
+  
+    .skills-grid img {
+      width: 80px;
+      height: 80px;
+    }
+  
+    
+    #first-text,
+    #second-text {
+      font-size: 24px;
+    }
+  
+    .user-entry,
+    .my-contact-infos {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .contact-header {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    #contact-left-line,
+    #contact-right-line {
+      width: 60%;
+    }
+  }
+  
+  
+  .menu-mobile-btn {
+    display: none;
+  }
+  
+  .menu-mobile {
+    display: none;
+  }
+>>>>>>> 0b1a5a6 (Responsividade Mobile)

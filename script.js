@@ -10,4 +10,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             behavior: 'smooth'
         });
     });
+<<<<<<< HEAD
 });
+=======
+});
+
+        const menuBtn = document.getElementById('menu-btn');
+         const mobileMenu = document.getElementById('mobile-menu');
+
+         menuBtn.addEventListener('click', () => {
+         mobileMenu.classList.toggle('show');
+});
+>>>>>>> 0b1a5a6 (Responsividade Mobile)
