@@ -10,9 +10,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             behavior: 'smooth'
         });
     });
-<<<<<<< HEAD
-});
-=======
 });
 
         const menuBtn = document.getElementById('menu-btn');
@@ -21,4 +18,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
          menuBtn.addEventListener('click', () => {
          mobileMenu.classList.toggle('show');
 });
->>>>>>> 0b1a5a6 (Responsividade Mobile)
+
